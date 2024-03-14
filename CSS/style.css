@@ -1,0 +1,1026 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+}
+
+p a {
+    color: inherit;
+    text-decoration: none;
+}
+
+span a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+/*--------------------------------------HEADER----------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+
+/* Hide the link and the menu that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+.menu_burger_section {
+    display: none;
+}
+
+.header_section {
+    width: 100%;
+}
+
+.header_box {
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-between;
+    width: 80%;
+    margin: 1% 3% 0 3%;
+}
+
+.header_background_container {
+    position: relative;
+}
+
+.header_background_image {
+    max-width: 100%;
+}
+
+.header_background_layout::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.menu {
+    align-self: center;
+}
+
+.conteneur_link_menu {
+    display: flex;
+    flex-direction: row;
+    width: 567px;
+    justify-content: space-between;
+}
+
+.link_menu {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.69px;
+}
+
+.header_concept_section {
+    z-index: 2;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    width: 35%;
+}
+
+.header_concept_title {
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 46.3px;
+    margin: 1% 0 5% 0;
+}
+
+.header_concept_text_box {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    width: 85%;
+}
+
+.header_concept_text {
+    margin: 7% 0 7% 0;
+}
+
+.header_concept_arrow_text {
+    margin-left: 1.5%;
+}
+
+.header_concept_separation_line {
+    border: solid 1px #E7EFFE;
+    opacity: 20%;
+    max-width: 100%;
+    margin-top: 1%;
+}
+
+.company_name {
+    margin-left: 15%;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+/*--------------------------------------SECTION----------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------CONCEPT SECTION----------------------------------------------------*/
+
+.concept_section {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+.concept_image_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 60%;
+    border-radius: 40px;
+    margin: 5% 5% 5% 10%;
+}
+
+.image_concept {
+    width: 150%;
+    height: 100%;
+}
+
+.concept_text_box {
+    margin-left: 5%;
+    position: relative;
+    align-self: center;
+}
+
+.title_text {
+    color: #3C4044;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+}
+
+.concept_separation_line {
+    border: solid 1px #D1D1D1;
+    max-width: 60%;
+    margin-top: 5%;
+}
+
+.concept_box_textarea {
+    margin-top: 5%;
+    text-align: start;
+    width: 60%;
+}
+
+.box_text1 {
+    color: #3c4044;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;
+    width: 85%;
+}
+
+.box_text2 {
+    color: #696969;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 6%;
+    line-height: 21.79px;
+    width: 85%;
+}
+
+.concept_box_button {
+    margin-top: 7%;
+}
+
+.information_button {
+    background-color: #3c4044;
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+    width: 50%;
+    padding: 12px 0pc 12px 0px;
+}
+
+/*--------------------------------------OFFERS SECTION----------------------------------------------------*/
+
+.offer_section {
+    margin-top: 1%;
+}
+
+.title_offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.offer_separation_line {
+    border: solid 1px #D1D1D1;
+    max-width: 50%;
+    margin: 1.5% 0% 0% 25%;
+}
+
+.offer_box_textarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1.5% 0% 0% 0%;
+}
+
+.offer_description_title {
+    color: #3c4044;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 32.68px;
+    text-align: center;
+}
+
+.offer_option_box {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.favorite_offer_icon_box {
+    background-color: #E7EFFE;
+    position: absolute;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 13.62px;
+
+}
+
+.offer_option {
+    background-color: #F9FAFB;
+    margin: 0% 2% 0% 2%;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 3%;
+}
+
+.offer_option_image {
+    width: 100%;
+    height: 80%;
+    clip-path: polygon(0 20%, 100% 20%, 100% 72%, 0 79%);
+    margin-top: -12%;
+}
+
+.favorite_option_container {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+.favorite_offer_icon_box {
+    background-color: #E7EFFE;
+    position: absolute;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 13.62px;
+    min-width: 40px;
+    height: 14px;
+    z-index: 3;
+    border-radius: 10px;
+    padding: 0.5% 3% 0.5% 3%;
+    top: 5%;
+    right: 5%;
+}
+
+.offer_title {
+    color: #3c4044;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    text-align: center;
+    margin: -8% 0% 3% 0%;
+}
+
+.option_description_textbox {
+    width: 80%;
+    margin: auto;
+    height: 65.34px;
+}
+
+.option_description_text {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 21.79px;
+}
+
+.option_moreInformation_buttonBox {
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    margin: 0% 5% 0% 0%;
+    align-items: end;
+}
+
+.moreInformation_buttonText {
+    color: #3c4044;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.offer_navigation_arrowBox {
+    display: none;
+}
+
+/*--------------------------------------SIMULATOR SECTION----------------------------------------------------*/
+
+.simulator_section {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 100%;
+}
+
+.simulator_image_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 90%;
+    border-radius: 40px;
+    margin: 5% 10% 5% 5%;
+}
+
+.image_simulator {
+    width: 177%;
+    height: 100%;
+}
+
+.simulator_text_box {
+    width: 80%;
+    margin: 5% 0% 0% 15%;
+    position: relative;
+    align-self: center;
+}
+
+.simulator_separation_line {
+    border: solid 1px #D1D1D1;
+    max-width: 85%;
+    margin-top: 5%;
+}
+
+.simulator_box_textarea {
+    margin-top: 5%;
+    text-align: start;
+    width: 75%;
+}
+
+.simulator_box_button {
+    margin-top: 7%;
+}
+
+.simulator_button {
+    background-color: #3c4044;
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+    width: 50%;
+    padding: 12px 0pc 12px 0px;
+}
+
+/*--------------------------------------FAQ SECTION----------------------------------------------------*/
+
+.faq_section {
+    display: flex;
+    flex-direction: row;
+    margin: 5% 0 0 10%;
+}
+
+.faq_presentation_box {
+    width: 432.21px;
+}
+
+.faq_separation_line {
+    border: solid 1px #D1D1D1;
+    max-width: 85%;
+    margin-top: 5%;
+}
+
+.common_question_text {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;
+    text-align: start;
+    margin-top: 5%;
+}
+
+.common_question_section {
+    width: 70%;
+    margin-left: 10%;
+}
+
+.common_question_box {
+    width: 80%;
+    margin: 1% 0 0 0;
+}
+
+.common_question_title_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #EAEDF0;
+}
+
+.common_question_title {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 2%;
+}
+
+.question_arrow_box {
+    margin: 2%;
+}
+
+.common_question_answer {
+    display: none;
+    background-color: #F9FAFB;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+}
+
+/*--------------------------------------NEWSLETTER SECTION----------------------------------------------------*/
+
+.newsletter_section {
+    position: relative;
+    width: auto;
+    max-height: 880px;
+}
+
+.newsletter_image_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.newsletter_image {
+    width: 100%;
+    clip-path: polygon(0 28%, 100% 28%, 100% 73%, 0 73%);
+    margin-top: -10%;
+}
+
+.newsletter_text_section {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    bottom: 6%;
+}
+
+.newsletter_text_box {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 90%;
+    height: 475px;
+    border-radius: 40px;
+    box-shadow: 0px 5px 5px #F9FAFB;
+}
+
+.newsletter_title_box {
+    align-self: center;
+}
+
+.newsletter_separation_line {
+    border: solid 1px #D1D1D1;
+    max-width: 85%;
+    margin-left: 7%;
+}
+
+.newsletter_subscribe_text {
+    color: #3c4044;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7%;
+}
+
+.subscribe_box_button {
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px #3C4044;
+    border-radius: 5px;
+    width: 70%;
+    margin: auto;
+    padding: 5px;
+}
+
+.customer_mail {
+    border: 0;
+    outline: 0;
+    margin-left: 2%;
+    width: 350px;
+}
+
+.subscribe_button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #3c4044;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+    width: 35%;
+    border-radius: 5px;
+    padding: 10px 0px 10px 0px;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+/*--------------------------------------FOOTER----------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+
+.company_footer {
+    color: #3C4044;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    padding-bottom: 2%;
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+/*--------------------------------------RESPONSIVE----------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1700px) {
+
+    /*--------------------------------------NEWSLETTER SECTION----------------------------------------------------*/
+
+    .newsletter_text_box {
+        width: 80%;
+        height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+
+    /*--------------------------------------HEADER SECTION----------------------------------------------------*/
+
+    .header_concept_section {
+        width: 70%;
+        top: 20%;
+    }
+
+    .header_box {
+        width: 98%;
+        margin: 1% 0% 0 0%;
+    }
+
+    .header_concept_title {
+        font-size: 24px;
+        line-height: 32.68px;
+        margin: 1% 0 0 0;
+    }
+
+    .header_concept_separation_line {
+        max-width: 85%;
+    }
+
+    /*--------------------------------------CONCEPT SECTION----------------------------------------------------*/
+
+    .concept_image_section {
+        width: 100%;
+        margin: 5% 0 5% 5%;
+    }
+
+    .concept_text_box {
+        width: 90%;
+    }
+
+    .concept_separation_line {
+        max-width: 90%;
+    }
+
+    .concept_box_textarea {
+        width: 100%;
+    }
+
+    .box_text1 {
+        width: 95%;
+    }
+
+    /*--------------------------------------OFFER SECTION----------------------------------------------------*/
+
+    .offer_separation_line {
+        border: solid 1px #D1D1D1;
+        max-width: 90%;
+        margin: auto;
+        margin-top: 2%;
+    }
+
+    .option_moreInformation_buttonBox {
+        height: 85px;
+    }
+
+    /*--------------------------------------SIMULATOR SECTION----------------------------------------------------*/
+
+    .simulator_image_section {
+        width: 95%;
+        margin: 5% 3% 0 3%;
+    }
+
+    .simulator_text_box {
+        width: 100%;
+        margin: 5% 0% 0% 8%;
+    }
+
+    .simulator_box_textarea {
+        width: 100%;
+    }
+
+    /*--------------------------------------FAQ SECTION----------------------------------------------------*/
+
+    .common_question_section {
+        width: 75%;
+        margin-left: 5%;
+    }
+
+    .common_question_box {
+        width: 90%;
+        margin: 2% 0 0 0;
+    }
+
+    /*--------------------------------------NEWSLETTER SECTION----------------------------------------------------*/
+
+    .newsletter_text_section {
+        bottom: 0%;
+    }
+
+    .newsletter_text_box {
+        width: 80%;
+        height: 300px;
+    }
+
+    .newsletter_subscribe_text {
+        width: 90%;
+    }
+
+    /*--------------------------------------FOOTER SECTION----------------------------------------------------*/
+
+    .company_footer {
+        margin-top: 5%;
+        padding-bottom: 5%;
+    }
+
+}
+
+
+@media screen and (max-width: 900px) {
+
+    /*--------------------------------------ASIDE SECTION----------------------------------------------------*/
+
+    /* Hide navbar and show menu button */
+    .topnav .icon {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .link_menu {
+        display: none;
+    }
+
+    .menu_burger_section {
+        z-index: 3;
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        background-color: white;
+    }
+
+    .menu_burger_box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 40%;
+        margin-top: 10%;
+    }
+
+    .menu_burger_close_button {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 5%;
+    }
+
+    .menu_burger_link {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.07px;
+        align-self: center;
+        padding: 3%;
+    }
+
+    /*--------------------------------------HEADER SECTION----------------------------------------------------*/
+
+    .header_section {
+        overflow: hidden;
+    }
+
+    .header_box {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 93%;
+    }
+
+    .conteneur_link_menu {
+        width: auto;
+    }
+
+    .header_background_container {
+        width: 135%;
+        min-height: 375px;
+    }
+
+    .header_concept_section {
+        top: 25%;
+        left: 3%;
+        width: 70%;
+    }
+
+    .header_concept_text_box {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.07px;
+        width: 85%;
+    }
+
+    .header_concept_separation_line {
+        max-width: 80%;
+    }
+
+    .header_background_image {
+        object-fit: cover;
+        height: 375px;
+        object-position: 70%;
+    }
+
+    .header_background_layout::before {
+        background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.150));
+    }
+
+    /*--------------------------------------CONCEPT SECTION----------------------------------------------------*/
+    .concept_section {
+        flex-direction: column-reverse;
+        margin: 3%;
+    }
+
+    .concept_image_section {
+        border-radius: 20px;
+        margin: 2% 0% 0% 0%;
+        height: 350px;
+    }
+
+    .image_concept {
+        width: 100%;
+        height: 130%;
+    }
+
+    .concept_text_box {
+        margin: 0;
+    }
+
+    .title_box {
+        margin-top: 4%;
+    }
+
+    .title_text {
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    .concept_separation_line {
+        max-width: 100%;
+    }
+
+    .concept_box_textarea {
+        margin-top: 3%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .box_text1 {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21.79px;
+        width: 95%;
+        margin: 5% 0 0 2%;
+    }
+
+    .box_text2 {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.07px;
+        width: 85%;
+        margin: 5% 0 0 5%;
+    }
+
+    .concept_box_button {
+        margin: 25px 0px 25px 0px;
+    }
+
+    .information_button {
+        width: 70%;
+    }
+
+    /*--------------------------------------OFFERS SECTION----------------------------------------------------*/
+
+    .offer_option_box {
+        width: 200%;
+    }
+
+    .offer_section {
+        margin-top: 5%;
+        overflow-x: hidden;
+    }
+
+    .offer_separation_line {
+        max-width: 90%;
+        margin: 5% 0 0 5%;
+    }
+
+    .offer_box_textarea {
+        width: 80%;
+        margin: 5% 0 5% 10%;
+    }
+
+    .offer_description_title {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 21.79px;
+    }
+
+    .option_description_text {
+        font-size: 14px;
+    }
+
+    .offer_navigation_arrowBox {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 10% 0% 3% 35%;
+        width: 30%;
+    }
+
+    /*--------------------------------------SIMULATOR SECTION----------------------------------------------------*/
+
+    .simulator_section {
+        flex-direction: column-reverse;
+        margin: 10% 0 0 0;
+    }
+
+    .simulator_image_section {
+        border-radius: 20px;
+    }
+
+    .image_simulator {
+        width: 100%;
+    }
+
+    .simulator_text_box {
+        width: 100%;
+        margin: 0;
+    }
+
+    .simulator_separation_line {
+        max-width: 90%;
+        margin: 5% 0 0 5%;
+    }
+
+    .simulator_box_textarea {
+        margin-top: 5%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .simulator_box_button {
+        margin-bottom: 3%;
+    }
+
+    /*--------------------------------------FAQ SECTION----------------------------------------------------*/
+
+    .faq_section {
+        flex-direction: column;
+        margin: 10% 0 0 0;
+    }
+
+    .faq_presentation_box {
+        width: 100%;
+    }
+
+    .faq_separation_line {
+        max-width: 90%;
+        margin: 5% 0 0 5%;
+    }
+
+    .common_question_text {
+        font-size: 16px;
+        text-align: center;
+        margin: 5%;
+        line-height: 21.79px;
+    }
+
+    .common_question_section {
+        width: 100%;
+        margin: 0;
+    }
+
+    .common_question_box {
+        width: 90%;
+        margin: 2% 0 0 5%;
+    }
+
+    .common_question_title {
+        font-size: 14px;
+    }
+
+    .common_question_answer {
+        font-size: 14px;
+    }
+
+    /*--------------------------------------NEWSLETTER SECTION----------------------------------------------------*/
+
+    .newsletter_section {
+        margin-top: 10%;
+    }
+
+    .newsletter_image {
+        clip-path: none;
+        margin-top: 0;
+        width: 120%;
+    }
+
+    .newsletter_text_section {
+        bottom: -15%;
+    }
+
+    .newsletter_text_box {
+        height: 295px;
+        border-radius: 20px;
+    }
+
+    .newsletter_subscribe_text {
+        font-size: 16px;
+        line-height: 21.79px;
+        width: 80%;
+    }
+
+    .subscribe_box_button {
+        flex-direction: column;
+        justify-content: space-around;
+        width: 90%;
+    }
+
+    .customer_mail {
+        width: 95%;
+        margin: 1%;
+    }
+
+    .subscribe_button {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 19.07px;
+        width: 98%;
+        margin: 1%;
+    }
+
+    /*--------------------------------------FOOTER SECTION----------------------------------------------------*/
+
+    .company_footer {
+        font-size: 14px;
+        line-height: 19.07px;
+        margin-top: 25%;
+        padding-bottom: 10%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .concept_image_section {
+        width: 100%;
+        height: 200px;
+        margin: 2% 0% 0% 0%;
+    }
+
+    .newsletter_image {
+
+        width: 160%;
+    }
+}

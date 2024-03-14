@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- SEO meta tags -->
+        <meta name="description" content="Solum est une solution de construction éco-responsable à bas coût, sans compromis sur la qualité. Fondée sur un système de containers connectables et connectés, votre maison rapidement disponible, à tous les coûts.">
+        <meta name="keywords" content="maison de qualité, éco-responsble, sur mesure, construction">
+    
+        <!-- Social media meta tags -->
+        <meta property="og:title" content="SOLUM">
+        <meta property="og:description" content="Solum est une solution de construction éco-responsable à bas coût, sans compromis sur la qualité. Fondée sur un système de containers connectables et connectés, votre maison rapidement disponible, à tous les coûts.">
+    
+        <!-- Reset CSS et CSS link -->
+        <link rel="stylesheet" href="./CSS/reset.css">
+        <link rel="stylesheet" href="./CSS/style.css">
+    
+        <title>SOLUM</title>
+    </head>
+</head>
+
+<body>
+    <!-- Menu who only appears in Mobile View -->
+    <aside>
+        <div class="menu_burger_section" id="menu_burger_section" style="display: none;">
+            <div class="menu_burger_box">
+                <div class="menu_burger_close_button" >
+                    <svg onclick="toggleNavbar()" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 4L4 12" stroke="#3C4044" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M4 4L12 12" stroke="#3C4044" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                      
+                </div>
+
+                <div class="menu_burger_link">
+                    <p onclick="toggleNavbar()"><a href="#concept_section">Le concept</a></p>
+                </div>
+                
+                <div class="menu_burger_link">
+                    <p onclick="toggleNavbar()"><a href="#offer_section">Les offres</a></p>
+                </div>
+                
+                <div class="menu_burger_link">
+                    <p onclick="toggleNavbar()"><a href="#simulator_section">Le simulateur</a></p>
+                </div>
+                
+                <div class="menu_burger_link">
+                    <p onclick="toggleNavbar()"><a href="#faq_section">FAQ</a></p>
+                </div>
+                
+                <div class="menu_burger_link">
+                    <p onclick="toggleNavbar()"><a href="#newsletter_section">Inscription</a></p>
+                </div>
+
+            </div>
+        </div>
+    </aside>
+    
+    <header class="header_section">
+        
+        
+        <div class="header_box">
+
+            <div class="company_name">
+                <svg width="100" height="47" viewBox="0 0 200 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 35V30.67H4.54V35C4.55406 35.9904 4.7655 36.9681 5.16195 37.8759C5.55839 38.7836 6.13188 39.6032 6.84887 40.2867C7.56586 40.9702 8.41194 41.5038 9.33763 41.8563C10.2633 42.2089 11.25 42.3733 12.24 42.34C13.2463 42.3545 14.2456 42.1704 15.1806 41.798C16.1156 41.4257 16.9679 40.8726 17.6888 40.1703C18.4097 39.468 18.9849 38.6304 19.3815 37.7054C19.7781 36.7804 19.9883 35.7863 20 34.78C20 30.6 16.61 27.72 12.8 26.14L10 24.91C4.32 22.61 0 18 0 12.17C0.00653613 10.571 0.328616 8.98909 0.947773 7.51487C1.56693 6.04065 2.47099 4.70314 3.60811 3.57902C4.74523 2.45491 6.09305 1.56629 7.5743 0.964137C9.05554 0.36198 10.6411 0.0581187 12.24 0.0699762C13.8441 0.0514965 15.4359 0.350322 16.9241 0.949266C18.4122 1.54821 19.7673 2.43545 20.9113 3.55997C22.0554 4.68448 22.9658 6.02408 23.5903 7.5017C24.2147 8.97933 24.5409 10.5658 24.55 12.17V16.17H20V12.17C19.9883 11.1619 19.7774 10.1661 19.3796 9.23985C18.9818 8.31355 18.4048 7.47503 17.6818 6.77248C16.9588 6.06993 16.104 5.51721 15.1667 5.14609C14.2294 4.77497 13.228 4.59278 12.22 4.60998C11.218 4.60074 10.224 4.78897 9.29475 5.1639C8.3655 5.53884 7.5192 6.09314 6.80418 6.79516C6.08916 7.49718 5.51942 8.33316 5.1275 9.25538C4.73558 10.1776 4.52915 11.168 4.52 12.17C4.52 16.27 7.97 19.17 11.72 20.74L14.54 22C20.23 24.31 24.54 28.91 24.54 34.82C24.5083 38.0557 23.1945 41.1468 20.8868 43.4152C18.579 45.6835 15.4658 46.944 12.23 46.92C10.6391 46.96 9.05629 46.6813 7.57473 46.1003C6.09317 45.5194 4.74282 44.6479 3.60319 43.5371C2.46355 42.4264 1.55766 41.0988 0.938853 39.6327C0.320046 38.1665 0.000830695 36.5914 0 35ZM30.53 23.4C30.5379 18.764 31.9204 14.2345 34.5026 10.3842C37.0848 6.5339 40.7507 3.53579 45.0368 1.76899C49.323 0.0021894 54.0368 -0.453955 58.5821 0.458242C63.1275 1.37044 67.3003 3.61001 70.5728 6.89374C73.8454 10.1775 76.0707 14.3579 76.9673 18.9063C77.864 23.4548 77.3918 28.167 75.6104 32.447C73.8289 36.7271 70.8183 40.3828 66.9593 42.9518C63.1002 45.5209 58.566 46.8879 53.93 46.88C47.7174 46.8562 41.7672 44.3722 37.3817 39.9717C32.9962 35.5712 30.5326 29.6126 30.53 23.4ZM72.87 23.4C72.8641 19.6625 71.7507 16.0106 69.6706 12.9055C67.5905 9.80032 64.6368 7.38123 61.1827 5.9537C57.7286 4.52617 53.9289 4.15421 50.2635 4.88482C46.5981 5.61542 43.2314 7.41581 40.5886 10.0586C37.9458 12.7014 36.1454 16.0681 35.4148 19.7335C34.6842 23.3989 35.0562 27.1986 36.4837 30.6527C37.9113 34.1068 40.3303 37.0604 43.4355 39.1406C46.5406 41.2207 50.1925 42.334 53.93 42.34C58.9532 42.34 63.7707 40.3445 67.3226 36.7926C70.8745 33.2406 72.87 28.4232 72.87 23.4ZM85 46.88V0.0699762H89.5V42.34H106.85V46.88H85ZM111.89 34V0.0699762H116.42V34C116.42 36.2066 117.297 38.3228 118.857 39.8831C120.417 41.4434 122.533 42.32 124.74 42.32C126.947 42.32 129.063 41.4434 130.623 39.8831C132.183 38.3228 133.06 36.2066 133.06 34V0.0699762H137.59V34C137.59 37.408 136.236 40.6765 133.826 43.0863C131.416 45.4961 128.148 46.85 124.74 46.85C121.332 46.85 118.064 45.4961 115.654 43.0863C113.244 40.6765 111.89 37.408 111.89 34ZM147.1 46.88V14.19C147.104 12.3318 147.474 10.4925 148.189 8.77728C148.903 7.06203 149.949 5.50436 151.266 4.19319C152.582 2.88203 154.144 1.84305 155.863 1.13559C157.581 0.428129 159.422 0.0660324 161.28 0.0699762C163.648 0.0523386 165.981 0.637997 168.059 1.77173C170.138 2.90545 171.893 4.54989 173.16 6.54998C174.428 4.55957 176.178 2.92183 178.248 1.78893C180.318 0.656032 182.64 0.0647343 185 0.0699762C188.751 0.0725579 192.348 1.55881 195.006 4.20426C197.665 6.84971 199.169 10.4395 199.19 14.19V46.88H194.65V14.19C194.65 12.9227 194.4 11.6679 193.915 10.4971C193.43 9.32629 192.72 8.26248 191.824 7.3664C190.927 6.47031 189.864 5.7595 188.693 5.27454C187.522 4.78958 186.267 4.53998 185 4.53998C179.89 4.53998 175.35 8.92998 175.35 13.39L175.43 46.88H170.82L170.89 13.39C170.89 8.85998 166.21 4.60998 161.24 4.60998C159.976 4.60207 158.724 4.84396 157.554 5.32173C156.384 5.79951 155.32 6.50375 154.424 7.394C153.527 8.28424 152.815 9.34292 152.329 10.5092C151.842 11.6755 151.591 12.9264 151.59 14.19V46.88H147.1Z" fill="white"/>
+                </svg>
+                
+            </div>
+            <!-- Top bar Nav who disapear in Mobile View -->
+            <nav class="menu topnav" id="myTopnav">
+                
+                <div class="conteneur_link_menu">
+                    <div class="link_menu">
+                        <p><a href="#concept_section">Le concept</a></p>
+                    </div>
+                    
+                    <div class="link_menu">
+                        <p><a href="#offer_section">Les offres</a></p>
+                    </div>
+                    
+                    <div class="link_menu">
+                        <p><a href="#simulator_section">Le simulateur</a></p>
+                    </div>
+                    
+                    <div class="link_menu">
+                        <p><a href="#faq_section">FAQ</a></p>
+                    </div>
+                    
+                    <div class="link_menu">
+                        <p><a href="#newsletter_section">Inscription</a></p>
+                    </div>
+                    <!-- Icon burger Menu, only appears in Mobile View -->
+                    <div class="icon" onclick="toggleNavbar()">
+                        <a>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3 12H21" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M3 6H21" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M3 18H21" stroke="#F9FAFB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                       
+                        </a>
+                    </div>
+                    
+                </div>
+                
+            </nav>
+        </div>
+        
+        <div class="header_background_container">
+            <div class="header_concept_section">
+                
+                <h1 class="header_concept_title">Votre maison éco-responsable et sur mesure</h1>
+                
+                <div class="header_concept_text_box">
+                    <p class="header_concept_text">Solum est une solution de construction éco-responsable à bas coût, sans compromis sur la qualité. Fondée sur un système de containers connectables et connectés, votre maison rapidement disponible, à tous les coûts.</p>
+                    <span class="header_concept_arrow_box">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.33331 8H12.6666" stroke="#E7EFFE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8 3.33333L12.6667 7.99999L8 12.6667" stroke="#E7EFFE" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span class="header_concept_arrow_text"><a href="#concept_section">Le concept</a></span>
+                    </span>
+                </div>
+                
+                <div class="header_concept_separation_line"></div>
+                
+            </div>
+            <div class="header_background_layout">
+                <img class="header_background_image" src="./Images/HeaderBackground.png" alt="Maison posé dans un arbre afin de montre le coté éco-responsable.">
+            </div>
+
+        </div>
+    </header>        
+
+        
+    <section class="concept_section" id="concept_section">
+        <div class="concept_image_section">
+            <img class="image_concept" src="./Images/ConceptImage.png" alt="Vue en coupe d'une élégante maquette de maison sur plusieurs niveaux, présentée sur un arrière-plan stylisé avec des plans architecturaux.">
+        </div>
+        
+        <div class="concept_text_box">
+            <div class="title_box">
+                <h2 class="title_text">Le concept</h2>
+            </div>
+
+            <div class="concept_separation_line"></div>
+
+            <div class="concept_box_textarea">
+                <p class="box_text1">Trois gammes avec une myriade d'options pour construire la maison de vos rêves, éco-friendly et à un tarif abordable</p>
+                <p class="box_text2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat assumenda sapiente repellendus ullam ipsam maiores.</p>
+            
+
+                <div class="concept_box_button">
+                    <button class="information_button"> Plus d'informations </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="offer_section" id="offer_section">
+        
+        <div class="title_offer">
+            <h2 class="title_text">Les offres</h2>
+        </div>
+
+        <div class="offer_separation_line"></div>
+
+        <div class="offer_box_textarea">
+            <p class="offer_description_title">Trois gammes avec une myriade d'options pour construire la maison de vos rêves.</p>                
+        </div>
+        <!-- Container for all my offers -->
+        <div class="offer_option_box"   id="offer_option_box">
+            <div class="offer_option">
+                <img class="offer_option_image" src="./Images/OfferImage1.png" alt="Un salon moderne avec murs en briques apparentes, mettant en avant l'appartement 3 pièces classique.">
+                <h3 class="offer_title">Essentiel</h3>
+                <div class="option_description_textbox">
+                    <p class="option_description_text">Un trois pièces classique tout confort avec cuisine, salle de bain, et dressings.</p>
+                </div>
+                <div class="option_moreInformation_buttonBox">
+                    <span class="moreInformation_buttonText">En savoir plus</span>
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19" stroke="#3C4044" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 5L19 12L12 19" stroke="#3C4044" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>                    
+            </div>
+
+            <div class="offer_option">
+                <div class="favorite_option_container">
+                    <div class="favorite_offer_icon_box">
+                        <p class="favorite_offer_icon">Le favori</p>
+                    </div>
+                    <img class="offer_option_image" src="./Images/OfferImage2.png" alt="Une pièce à vivre spacieuse et épurée, présentant un appartement 5 pièces avec terrasse.">
+                </div>
+                <h3 class="offer_title">Intemporel</h3>
+                <div class="option_description_textbox">
+                    <p class="option_description_text">Le cinq pièces avec garage, cuisine, living room, dinning room, petite terrasse.<br> Options possible avec ou sans surcoût.</p>
+                </div>
+                <div class="option_moreInformation_buttonBox">
+                    <span class="moreInformation_buttonText">En savoir plus</span>
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19" stroke="#3C4044" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 5L19 12L12 19" stroke="#3C4044" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="offer_option">
+                <img class="offer_option_image" src="./Images/OfferImage3.png" alt="Un espace de bureau contemporain avec éclairage chaleureux, proposant l'appartement de vos rêves sur mesure.">
+                <h3 class="offer_title">Abondance</h3>
+                <div class="option_description_textbox">
+                    <p class="option_description_text">Une offre sur mesure. Jardin, grand garage, piscine, bowling, cinéma... Vous choisissez la maison de vos rêves.</p>
+                </div>
+                <div class="option_moreInformation_buttonBox">
+                    <span class="moreInformation_buttonText">En savoir plus</span>
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19" stroke="#3C4044" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12 5L19 12L12 19" stroke="#3C4044" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <!-- Those arrows only appears in Mobile View -->
+        <div class="offer_navigation_arrowBox">
+            <div class="left_navigation_arrow" id="left_navigation_arrow" onclick="offerMovemenLeft()">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#3C4044" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 8L8 12L12 16" stroke="#3C4044" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16 12H8" stroke="#3C4044" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <div class="right_navigation_arrow" id="right_navigation_arrow" onclick="offerMovemenRight()">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#3C4044" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 16L16 12L12 8" stroke="#3C4044" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M8 12H16" stroke="#3C4044" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+    
+    <section class="simulator_section" id="simulator_section">
+        <div class="simulator_image_section">
+            <img class="image_simulator" src="./Images/SimulatorImage.png" alt="Un bureau moderne en suspension avec toit végétalisé sur fond de paysage montagneux et ciel nuageux.">
+        </div>
+        <div class="simulator_text_box">
+            <div class="title_box">
+                <h2 class="title_text">Le simulateur</h2>
+            </div>
+
+            <div class="simulator_separation_line"></div>
+
+            <div class="simulator_box_textarea">
+                <p class="box_text1">Pensé par nous, fait pour vous. Prêt à découvrir votre nouveau rêve ?</p>
+                <p class="box_text2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut nobis tempore adipisci laboriosam quidem dignissimos repellat totam repellendus nostrum.</p>
+                <div class="simulator_box_button">
+                    <button class="simulator_button"> Accéder au simulateur </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq_section" id="faq_section">
+
+        <div class="faq_presentation_box">
+            <div class="faq_title_box">
+                <h2 class="title_text">Foire aux questions</h2>
+            </div>
+
+            <div class="faq_separation_line"></div>
+
+            <div>
+                <p class="common_question_text">Questions fréquentes</p>
+            </div>
+        </div>
+        <!-- Container for all commom question -->
+        <div class="common_question_section">
+            <div class="common_question_box">
+                <div class="common_question_title_box">
+                    <p class="common_question_title">Comment construire une maison ?</p>
+                    <div id="arrow1" class="question_arrow_box" onclick="hideShowCommonQuestion(1)">
+                        <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.8333 6L10.3889 10.6667L4.94443 6" stroke="#3C4044" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>       
+                <p class="common_question_answer" id="arrow_box1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, repellat id autem facilis officia totam iusto, quia cumque voluptatibus quam voluptate nesciunt numquam voluptatem? Iusto  ipsa soluta maiores repellat totam harum corporis quis! <br>
+                    Dolorem repudiandae, accusantium distinctio explicabo obcaecati amet? Dolorum ratione maxime fugiat quod laboriosam deserunt, minima ab esse quam, iusto ex et officia. 
+                </p>                   
+            </div>
+
+            <div class="common_question_box">
+                <div class="common_question_title_box">
+                    <p class="common_question_title">Quels sont les différents tarifs ?</p>
+                    <div id="arrow2" class="question_arrow_box" onclick="hideShowCommonQuestion(2)">
+                        <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.8333 6L10.3889 10.6667L4.94443 6" stroke="#3C4044" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>       
+                <p class="common_question_answer" id="arrow_box2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, repellat id autem facilis officia totam iusto, quia cumque voluptatibus quam voluptate nesciunt numquam voluptatem? Iusto  ipsa soluta maiores repellat totam harum corporis quis! <br>
+                    Dolorem repudiandae, accusantium distinctio explicabo obcaecati amet? Dolorum ratione maxime fugiat quod laboriosam deserunt, minima ab esse quam, iusto ex et officia. 
+                </p>                    
+            </div>
+
+            <div class="common_question_box">
+                <div class="common_question_title_box">
+                    <p class="common_question_title">Est-il possible de rajouter une option dans une offre ?</p>
+                    <div id="arrow3" class="question_arrow_box" onclick="hideShowCommonQuestion(3)">
+                        <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.8333 6L10.3889 10.6667L4.94443 6" stroke="#3C4044" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>       
+                <p class="common_question_answer" id="arrow_box3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, repellat id autem facilis officia totam iusto, quia cumque voluptatibus quam voluptate nesciunt numquam voluptatem? Iusto  ipsa soluta maiores repellat totam harum corporis quis! <br>
+                    Dolorem repudiandae, accusantium distinctio explicabo obcaecati amet? Dolorum ratione maxime fugiat quod laboriosam deserunt, minima ab esse quam, iusto ex et officia. 
+                </p>                   
+            </div>
+
+            <div class="common_question_box">
+                <div class="common_question_title_box">
+                    <p class="common_question_title">Quand pourrai-je passer commande ?</p>
+                    <div id="arrow4" class="question_arrow_box" onclick="hideShowCommonQuestion(4)">
+                        <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.8333 6L10.3889 10.6667L4.94443 6" stroke="#3C4044" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>       
+                <p class="common_question_answer" id="arrow_box4"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, repellat id autem facilis officia totam iusto, quia cumque voluptatibus quam voluptate nesciunt numquam voluptatem? Iusto  ipsa soluta maiores repellat totam harum corporis quis! <br>
+                    Dolorem repudiandae, accusantium distinctio explicabo obcaecati amet? Dolorum ratione maxime fugiat quod laboriosam deserunt, minima ab esse quam, iusto ex et officia. 
+                </p>                    
+            </div>
+
+            <div class="common_question_box">
+                <div class="common_question_title_box">
+                    <p class="common_question_title">Quels sont les délais de livraison ?</p>
+                    <div id="arrow5" class="question_arrow_box" onclick="hideShowCommonQuestion(5)">
+                        <svg  width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.8333 6L10.3889 10.6667L4.94443 6" stroke="#3C4044" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>       
+                <p class="common_question_answer" id="arrow_box5"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, repellat id autem facilis officia totam iusto, quia cumque voluptatibus quam voluptate nesciunt numquam voluptatem? Iusto  ipsa soluta maiores repellat totam harum corporis quis! <br>
+                    Dolorem repudiandae, accusantium distinctio explicabo obcaecati amet? Dolorum ratione maxime fugiat quod laboriosam deserunt, minima ab esse quam, iusto ex et officia. 
+                </p>                   
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter_section" id="newsletter_section">
+        <div class="newsletter_image_section">
+            <img class="newsletter_image" src="./Images/SimulatorImage.png" alt="Un bureau moderne en suspension avec toit végétalisé sur fond de paysage montagneux et ciel nuageux.">           
+            <div class="newsletter_text_section">
+                <div class="newsletter_text_box">
+                    <div class="newsletter_title_box">
+                        <h2 class="title_text">Notre newsletter</h2>
+                    </div>
+
+                    <div class="newsletter_separation_line"></div>
+
+                    <div class="newsletter_subscribe_textarea">
+                        <p class="newsletter_subscribe_text">Pour suivre notre lancement et profiter des meilleurs tarifs pour votre future maison</p>
+                    
+                        <div class="subscribe_box_button">
+                            <input type="email" id="customer_mail" class="customer_mail" placeholder="Votre email" width="300px">
+                            <button class="subscribe_button"> Je m'inscris </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="company_footer">
+            <span >Solum ©2023 - Kaliop</span>             
+        </div>
+    </footer>
+
+    <!-- Link JavaScript -->
+    <script src="./JS/script.js"></script>
+
+
+</body>
+
+</html>
